@@ -83,17 +83,18 @@ var tabsCtrl = function($scope, globalService, $translate, $sce) {
         globalFuncs.localStorage.setItem('curNode', JSON.stringify({
             key: key
         }));
-        if (nodes.ensNodeTypes.indexOf($scope.curNode.type) == -1) $scope.tabNames.ens.cx = $scope.tabNames.ens.mew = false;
-        else $scope.tabNames.ens.cx = $scope.tabNames.ens.mew = true;
+        //if (nodes.ensNodeTypes.indexOf($scope.curNode.type) == -1) $scope.tabNames.ens.cx = $scope.tabNames.ens.mew = false;
+        //else $scope.tabNames.ens.cx = $scope.tabNames.ens.mew = true;
         ajaxReq.getCurrentBlock(function(data) {
             if (data.error) {
                 $scope.nodeIsConnected = false;
                 $scope.notifier.danger(globalFuncs.errorMsgs[32]);
             } else {
                 $scope.nodeIsConnected = true;
-                $scope.notifier.info( globalFuncs.successMsgs[5] + '— Now, check the URL: <strong>' + window.location.href + '.</strong> <br /> Network: <strong>' + $scope.nodeType + ' </strong> provided by <strong>' + $scope.nodeService + '.</strong>', 5000)
+                //$scope.notifier.info( globalFuncs.successMsgs[5] + '— Now, check the URL: <strong>' + window.location.href + '.</strong> <br /> Network: <strong>' + $scope.nodeType + ' </strong> provided by <strong>' + $scope.nodeService + '.</strong>', 5000)
             }
         });
+	$scope.notifier.info('<a href="https://c-cex.com/?id=vote&coin=shf" target="_blank">Vote for SHAFT listing on C-CEX!</a>', 9999999)
         networkHasChanged && window.setTimeout(function() {location.reload() }, 250)
     }
     $scope.checkNodeUrl = function(nodeUrl) {

@@ -20,55 +20,11 @@
       <p translate="x_PasswordDesc"> </p>
       <div class="text-center">
         <strong>
-          <a href="https://myetherwallet.github.io/knowledge-base/getting-started/creating-a-new-wallet-on-myetherewallet.html" target="_blank" rel="noopener" translate="GEN_Help_5">
-          How to Create a Wallet</a>
-          &nbsp;&nbsp;&middot;&nbsp;&nbsp;
-          <a href="https://myetherwallet.github.io/knowledge-base/getting-started/getting-started-new.html" target="_blank" rel="noopener" translate="GEN_Help_6">
+          <a href="https://medium.com/@shaftsh/setting-up-shaft-online-wallet-instructions-a33c288509eb" target="_blank" rel="noopener" translate="GEN_Help_6">
           Getting Started</a>
         </strong>
       </div>
       <br>
-    </section>
-
-    <section class="block__help">
-
-      <h2>Already have a wallet somewhere?</h2>
-      <ul><li>
-        <p>
-          <strong>Ledger / TREZOR / Digital Bitbox</strong>:
-          <span translate="GEN_Help_1">Use your</span>
-          <a ng-click="globalService.currentTab=globalService.tabs.sendTransaction.id">hardware wallet</a>.
-          <span translate="GEN_Help_3">Your device * is * your wallet.</span>
-        </p>
-      </li></ul>
-
-      <ul><li>
-        <p>
-          <strong>MetaMask</strong>
-          <span>Connect via your</span>
-          <a ng-click="globalService.currentTab=globalService.tabs.sendTransaction.id">MetaMask Extension</a>.
-          <span>So easy! Keys stay in MetaMask, not on a phishing site! Try it today.</span>
-        </p>
-      </li></ul>
-
-      <ul><li>
-        <p>
-          <strong>Jaxx / imToken</strong>
-          <span translate="GEN_Help_1">Use your</span>
-          <a ng-click="globalService.currentTab=globalService.tabs.sendTransaction.id" translate="x_Mnemonic">Mnemonic Phrase</a>
-          <span translate="GEN_Help_2">to access your account.</span>
-        </p>
-      </li></ul>
-
-      <ul><li>
-        <p>
-          <strong>Mist / Geth / Parity:</strong>
-          <span translate="GEN_Help_1">Use your</span>
-          <a ng-click="globalService.currentTab=globalService.tabs.sendTransaction.id" translate="x_Keystore2">Keystore File (UTC / JSON)</a>
-          <span translate="GEN_Help_2">to access your account.</span>
-        </p>
-      </li></ul>
-
     </section>
 
   </article>
@@ -112,16 +68,6 @@
         <li translate="GEN_Help_10"> Right click &amp; save file as. Filename:</li>
         <input value="{{encFileName}}" class="form-control input-sm" />
       </ul>
-
-      <h2 translate="GEN_Help_11">Don't open this file on your computer</h2>
-      <ul><li translate="GEN_Help_12">Use it to unlock your wallet via MyEtherWallet (or Mist, Geth, Parity &amp; other wallet clients.)</li></ul>
-
-      <h2 translate="GEN_Help_4">Guides &amp; FAQ</h2>
-      <ul>
-        <li><a href="https://myetherwallet.github.io/knowledge-base/getting-started/backing-up-your-new-wallet.html" target="_blank" rel="noopener"><strong translate="GEN_Help_13">How to Back Up Your Keystore File</strong></a></li>
-        <li><a href="https://myetherwallet.github.io/knowledge-base/private-keys-passwords/difference-beween-private-key-and-keystore-file.html" target="_blank" rel="noopener"><strong translate="GEN_Help_14">What are these Different Formats?</a></strong></li>
-      </ul>
-
     </section>
 
   </article>
@@ -159,16 +105,16 @@
 
     </section>
 
-    <section class="block__help">
+    <!--<section class="block__help">
       <h2 translate="GEN_Help_4">Guides &amp; FAQ</h2>
       <ul>
-        <li><a href="https://myetherwallet.github.io/knowledge-base/getting-started/backing-up-your-new-wallet.html" target="_blank" rel="noopener">
+        <li><a href="https://myetherwallet.groovehq.com/knowledge_base/topics/how-do-i-save-slash-backup-my-wallet" target="_blank" rel="noopener">
           <strong translate="HELP_2a_Title">How to Save & Backup Your Wallet.</strong>
         </a></li>
-        <li><a href="https://myetherwallet.github.io/knowledge-base/getting-started/protecting-yourself-and-your-funds.html" target="_blank" rel="noopener">
+        <li><a href="https://myetherwallet.groovehq.com/knowledge_base/topics/protecting-yourself-and-your-funds" target="_blank" rel="noopener">
           <strong translate="GEN_Help_15">Preventing loss &amp; theft of your funds.</strong>
         </a></li>
-        <li><a href="https://myetherwallet.github.io/knowledge-base/private-keys-passwords/difference-beween-private-key-and-keystore-file.html" target="_blank" rel="noopener">
+        <li><a href="https://myetherwallet.groovehq.com/knowledge_base/topics/what-are-the-different-formats-of-a-private-key" target="_blank" rel="noopener">
           <strong translate="GEN_Help_16">What are these Different Formats?</strong>
         </a></li>
       </ul>
@@ -178,13 +124,13 @@
         <li translate="GEN_Help_18"> To have a secondary backup. </li>
         <li translate="GEN_Help_19"> In case you ever forget your password. </li>
         <li>
-          <a href="https://myetherwallet.github.io/knowledge-base/offline/ethereum-cold-storage-with-myetherwallet.html" target="_blank" rel="noopener" translate="GEN_Help_20">Cold Storage</a>
+          <a href="https://myetherwallet.groovehq.com/knowledge_base/topics/how-do-i-safely-slash-offline-slash-cold-storage-with-myetherwallet" target="_blank" rel="noopener" translate="GEN_Help_20">Cold Storage</a>
         </li>
       </ul>
 
       <h2 translate="x_PrintDesc"></h2>
 
-    </section>
+    </section>-->
 
   </article>
 

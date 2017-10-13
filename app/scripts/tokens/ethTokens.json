@@ -104,11 +104,6 @@
 "decimal":18,
 "type":"default"
 },{
-"address":"0xb2bfeb70b903f1baac7f2ba2c62934c7e5b974c4",
-"symbol":"BKB",
-"decimal":8,
-"type":"default"
-},{
 "address":"0xce59d29b09aae565feeef8e52f47c3cd5368c663",
 "symbol":"BLX",
 "decimal":18,
@@ -157,11 +152,6 @@
 "address":"0x7d4b8Cce0591C9044a22ee543533b72E976E36C3",
 "symbol":"CAG",
 "decimal":18,
-"type":"default"
-},{
-"address":"0x1d462414fe14cf489c7A21CaC78509f4bF8CD7c0",
-"symbol":"CAN",
-"decimal":6,
 "type":"default"
 },{
 "address":"0x56ba2Ee7890461f463F7be02aAC3099f6d5811A8",
@@ -294,11 +284,6 @@
 "decimal":2,
 "type":"default"
 },{
-"address":"0xced4e93198734ddaff8492d525bd258d49eb388e",
-"symbol":"EDO",
-"decimal":18,
-"type":"default"
-},{
 "address":"0xf9F0FC7167c311Dd2F1e21E9204F87EBA9012fB2",
 "symbol":"EHT",
 "decimal":8,
@@ -389,15 +374,15 @@
 "decimal":3,
 "type":"default"
 },{
-"address":"0xFeeD1a53bd53FFE453D265FC6E70dD85f8e993b6",
-"symbol":"H2O",
-"decimal":18,
-"type":"default"
+    "address":"0xFeeD1a53bd53FFE453D265FC6E70dD85f8e993b6",
+    "symbol":"H2O",
+    "decimal":18,
+    "type":"default"
 },{
-"address":"0xba2184520A1cC49a6159c57e61E1844E085615B6",
-"symbol":"HGT",
-"decimal":8,
-"type":"default"
+    "address":"0xba2184520A1cC49a6159c57e61E1844E085615B6",
+    "symbol":"HGT",
+    "decimal":8,
+    "type":"default"
 },{
 "address":"0x14F37B574242D366558dB61f3335289a5035c506",
 "symbol":"HKG",
@@ -407,11 +392,6 @@
 "address":"0xcbCC0F036ED4788F63FC0fEE32873d6A7487b908",
 "symbol":"HMQ",
 "decimal":8,
-"type":"default"
-},{
-"address":"0x554C20B7c486beeE439277b4540A434566dC4C02",
-"symbol":"HST",
-"decimal":18,
 "type":"default"
 },{
 "address":"0x5a84969bb663fb64F6d015DcF9F622Aedc796750",
@@ -477,11 +457,6 @@
 "address":"0x773450335eD4ec3DB45aF74f34F2c85348645D39",
 "symbol":"JetCoins",
 "decimal":18,
-"type":"default"
-},{
-"address":"0x27695E09149AdC738A978e9A678F99E4c39e9eb9",
-"symbol":"KICK",
-"decimal":8,
 "type":"default"
 },{
 "address":"0x818Fc6C2Ec5986bc6E2CBf00939d90556aB12ce5",
@@ -679,6 +654,11 @@
 "decimal":0,
 "type":"default"
 },{
+"address":"0xE477292f1B3268687A29376116B0ED27A9c76170",
+"symbol":"PLAY",
+"decimal":18,
+"type":"default"
+},{
 "address":"0x0AfFa06e7Fbe5bC9a764C979aA66E8256A631f02",
 "symbol":"PLBT",
 "decimal":6,
@@ -839,7 +819,7 @@
 "decimal":0,
 "type":"default"
 },{
-"address":"0xf333b2Ace992ac2bBD8798bF57Bc65a06184afBa",
+"address":"0xf333b2ace992ac2bbd8798bf57bc65a06184a",
 "symbol":"SND",
 "decimal":0,
 "type":"default"

@@ -67,7 +67,7 @@ globalFuncs.errorMsgs = [
     'Could not connect to the node. Try refreshing, using different node in upper right corner, and checking firewall settings. If custom node, check your configs.', // 32
     'The wallet you have unlocked does not match the owner\'s address. ', // 33
     'The name you are attempting to reveal does not match the name you have entered. ', // 34
-    'Input address is not checksummed. <a href="https://myetherwallet.github.io/knowledge-base/addresses/not-checksummed-shows-when-i-enter-an-address.html" target="_blank" rel="noopener"> More info</a>', // 35
+    'Input address is not checksummed. <a href="https://myetherwallet.groovehq.com/knowledge_base/topics/not-checksummed-shows-when-i-enter-an-address" target="_blank" rel="noopener"> More info</a>', // 35
     'Enter valid TX hash', // 36
     'Enter valid hex string (0-9, a-f)' // 37
 ];
@@ -167,10 +167,11 @@ globalFuncs.stripTags = function(str) {
     return str;
 };
 globalFuncs.checkAndRedirectHTTPS = function() {
-    var host = "myetherwallet.com";
-    var hostw = "https://www.myetherwallet.com";
+	/*
+    var host = "wallet.shaft.sh";
+    var hostw = "https://wallet.shaft.sh";
     var path = window.location.pathname;
-    if (host == window.location.host) window.location = hostw + path;
+    if (host == window.location.host) window.location = hostw + path;*/
 };
 globalFuncs.isStrongPass = function(password) {
     return password.length > 8;
