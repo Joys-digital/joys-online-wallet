@@ -94,7 +94,7 @@ var tabsCtrl = function($scope, globalService, $translate, $sce) {
                 //$scope.notifier.info( globalFuncs.successMsgs[5] + '— Now, check the URL: <strong>' + window.location.href + '.</strong> <br /> Network: <strong>' + $scope.nodeType + ' </strong> provided by <strong>' + $scope.nodeService + '.</strong>', 5000)
             }
         });
-	$scope.notifier.info('<a href="https://c-cex.com/?id=vote&coin=shf" target="_blank">Vote for JOYS listing on C-CEX!</a>', 9999999)
+	$scope.notifier.info('<a href="https://c-cex.com/?id=vote&coin=joys" target="_blank">Vote for JOYS listing on C-CEX!</a>', 9999999)
         networkHasChanged && window.setTimeout(function() {location.reload() }, 250)
     }
     $scope.checkNodeUrl = function(nodeUrl) {
