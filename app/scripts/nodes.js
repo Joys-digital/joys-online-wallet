@@ -22,16 +22,17 @@ nodes.customNodeObj = {
 };
 nodes.nodeList = {
     'eth_mew': {
-        'name': 'SHF',
-        'blockExplorerTX': 'https://explorer.shaft.sh/block/[[txHash]]',
-        'blockExplorerAddr': 'https://explorer.shaft.sh/addr/[[address]]',
+        'name': 'JOYS',
+        'blockExplorerTX': 'http://ethexplorer.joys.digital/block/[[txHash]]',
+        'blockExplorerAddr': 'http://ethexplorer.joys.digital/addr/[[address]]',
         'type': nodes.nodeTypes.ETH,
         'eip155': true,
         'chainId': 420,
         'tokenList': [],
         'abiList': [],
-        'service': 'Shaft Wallet',
-        'lib': new nodes.customNode('https://wallet.shaft.sh/shf', '443')
+        'service': 'JOYS Wallet',
+        // 'lib': new nodes.customNode('https://wallet.joys.digital/joys', '443')
+        'lib': new nodes.customNode('http://92.53.69.64', '8545')
     }
 };
 
