@@ -27,7 +27,7 @@ nodes.nodeList = {
         'blockExplorerAddr': 'http://ethexplorer.joys.digital/addr/[[address]]',
         'type': nodes.nodeTypes.ETH,
         'eip155': true,
-        'chainId': 420,
+        'chainId': 35855456,
         'tokenList': [],
         'abiList': [],
         'service': 'JOYS Wallet',

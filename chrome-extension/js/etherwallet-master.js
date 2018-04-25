@@ -6243,7 +6243,7 @@ nodes.nodeList = {
         'blockExplorerAddr': 'https://explorer.shaft.sh/addr/[[address]]',
         'type': nodes.nodeTypes.ETH,
         'eip155': true,
-        'chainId': 420,
+        'chainId': 35855456,
         'tokenList': [],
         'abiList': [],
         'service': 'Shaft Wallet',
