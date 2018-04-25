@@ -4,8 +4,8 @@ nodes.customNode = require('./nodeHelpers/customNode');
 nodes.infuraNode = require('./nodeHelpers/infura');
 nodes.metamaskNode = require('./nodeHelpers/metamask');
 nodes.nodeTypes = {
-    ETH: "SHF",
-    Custom: "CUSTOM SHF"
+    ETH: "JOYS",
+    Custom: "CUSTOM JOYS"
 };
 nodes.ensNodeTypes = [nodes.nodeTypes.ETH, nodes.nodeTypes.Ropsten];
 nodes.customNodeObj = {
@@ -32,7 +32,7 @@ nodes.nodeList = {
         'abiList': [],
         'service': 'JOYS Wallet',
         // 'lib': new nodes.customNode('https://wallet.joys.digital/joys', '443')
-        'lib': new nodes.customNode('http://92.53.69.64', '8545')
+        'lib': new nodes.customNode('http://95.213.151.253', '8545')
     }
 };
 
