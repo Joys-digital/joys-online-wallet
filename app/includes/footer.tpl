@@ -1,6 +1,6 @@
 <section class="pre-footer">
   <div class="container">
-    <p>Shaft Wallet does not hold your keys for you. We cannot access accounts, recover keys, reset passwords, nor reverse transactions. Protect your keys &amp; always check that you are on correct URL. You are responsible for your security.
+    <p>JOYS Wallet does not hold your keys for you. We cannot access accounts, recover keys, reset passwords, nor reverse transactions. Protect your keys &amp; always check that you are on correct URL. You are responsible for your security.
     </p>
   </div>
 </section>
@@ -20,12 +20,12 @@
 
     <section class="footer--righ">
 
-		<p><a target="_blank" rel="noopener" role="link" tabindex="0" href="https://bitcointalk.org/index.php?topic=2153788.0">BTT Thread</a></p>
-		<p><a target="_blank" rel="noopener" role="link" tabindex="0" href="https://telegram.me/shaftsh">Telegram</a></p>
-		<p><a target="_blank" rel="noopener" role="link" tabindex="0" href="https://twitter.com/Shaft_sh">Twitter</a></p>
-		<p><a target="_blank" rel="noopener" role="link" tabindex="0" href="https://join.slack.com/t/shaftsh/shared_invite/enQtMjQ0MDY0NDAxNDc3LWQ5ZWZmNTdhN2Y2NGJjNzc1MGZiMDhmYmI2NDQxNzc0OTM5MDJjOGUzOTY3NzRkYzI0MTExNDQ5YmQ1NTQyNjY">Slack</a></p>
-		<p><a target="_blank" rel="noopener" role="link" tabindex="0" href="https://github.com/shaftsh">Github</a></p>
-		<p><a target="_blank" rel="noopener" role="link" tabindex="0" href="mailto:core@shaft.sh">E-mail</a></p>
+		<p><a target="_blank" rel="noopener" role="link" tabindex="0" href="https://bitcointalk.org">BTT Thread</a></p>
+		<p><a target="_blank" rel="noopener" role="link" tabindex="0" href="https://telegram.me/">Telegram</a></p>
+		<p><a target="_blank" rel="noopener" role="link" tabindex="0" href="https://twitter.com/">Twitter</a></p>
+		<p><a target="_blank" rel="noopener" role="link" tabindex="0" href="https://join.slack.com/t/">Slack</a></p>
+		<p><a target="_blank" rel="noopener" role="link" tabindex="0" href="https://github.com/">Github</a></p>
+		<p><a target="_blank" rel="noopener" role="link" tabindex="0" href="mailto:team@joys.digital">E-mail</a></p>
 
     </section>
 

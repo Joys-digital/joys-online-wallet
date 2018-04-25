@@ -2,9 +2,9 @@
 <html lang="en" ng-app="mewApp">
 <head>
 <meta charset="utf-8">
-<title>Shaft Wallet</title>
-<meta name="description" content="This is online wallet for SHAFT. Awesome!">
-<link rel="canonical" href="https://wallet.shaft.sh" />
+<title>JOYS Wallet</title>
+<meta name="description" content="This is online wallet for JOYS. Awesome!">
+<link rel="canonical" href="https://wallet.joys.digital" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="css/etherwallet-master.min.css">
 <script type="text/javascript" src="js/etherwallet-static.min.js"></script>
@@ -20,11 +20,11 @@
 <meta name="theme-color" content="#ffffff">
 
 
-<meta name="apple-mobile-web-app-title" content="Shaft Wallet &middot; Your Key to SHAFT">
-<meta name="application-name" content="Shaft Wallet">
-<meta property="og:url" content="https://wallet.shaft.sh" />
-<meta property="og:title" content="Shaft Wallet" />
-<meta property="og:description" content="This is online wallet for SHAFT. Awesome!" />
+<meta name="apple-mobile-web-app-title" content="JOYS Wallet &middot; Your Key to JOYS">
+<meta name="application-name" content="JOYS Wallet">
+<meta property="og:url" content="https://wallet.joys.digital" />
+<meta property="og:title" content="JOYS Wallet" />
+<meta property="og:description" content="This is online wallet for JOYS. Awesome!" />
 </head>
 <body>
 <header class="{{curNode.name}} {{curNode.service}} {{curNode.service}} nav-index-{{gService.currentTab}}" aria-label="header" ng-controller='tabsCtrl' >
@@ -32,7 +32,7 @@
   <section class="container">
     @@if (site === 'mew' ) {
       <a class="brand" href="/" aria-label="Go to homepage">
-        <img src="images/onw.png"   height="64px" width="245px" alt="Shaft Wallet" />
+        <img src="images/onw.png"   height="64px" width="245px" alt="JOYS Wallet" />
       </a>
     }
     <div class="tagline">

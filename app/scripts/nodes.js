@@ -32,7 +32,7 @@ nodes.nodeList = {
         'abiList': [],
         'service': 'JOYS Wallet',
         // 'lib': new nodes.customNode('https://wallet.joys.digital/joys', '443')
-        'lib': new nodes.customNode('http://95.213.151.253', '8545')
+        'lib': new nodes.customNode('https://node.joys.digital', '443')
     }
 };
 

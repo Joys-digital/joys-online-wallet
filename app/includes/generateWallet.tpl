@@ -20,7 +20,7 @@
       <p translate="x_PasswordDesc"> </p>
       <div class="text-center">
         <strong>
-          <a href="https://medium.com/@shaftsh/setting-up-shaft-online-wallet-instructions-a33c288509eb" target="_blank" rel="noopener" translate="GEN_Help_6">
+          <a href="https://medium.com/" target="_blank" rel="noopener" translate="GEN_Help_6">
           Getting Started</a>
         </strong>
       </div>
